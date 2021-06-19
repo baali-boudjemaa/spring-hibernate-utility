@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="155.0" stylesheets="@../../theme/css/drawer.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stock.Controller.dashboard">
+    <stylesheets>
+        <URL value="@../../theme/css/material-color.css" />
+        <URL value="@../../theme/css/skeleton.css" />
+        <URL value="@../../theme/css/light.css" />
+        <URL value="@../../theme/css/bootstrap.css" />
+        <URL value="@../../theme/css/shape.css" />
+        <URL value="@../../theme/css/typographic.css" />
+        <URL value="@../../theme/css/helpers.css" />
+        <URL value="@../../theme/css/master.css" />
+        <URL value="@../../theme/css/login.css" />
+       <URL value="@../../theme/css/custom-scroll.css" />
+       <URL value="@../../theme/css/simple-green.css" />
+
+    </stylesheets>
+   <children>
+      <ScrollPane prefHeight="600.0" prefWidth="155.0" styleClass="scroll" stylesheets="@../../theme/css/custom-scroll.css">
+         <content>
+      
+            <VBox prefHeight="340.0" prefWidth="148.0" styleClass="drawer-content" stylesheets="@../../theme/css/drawer.css">
+               <children>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="bhome" maxHeight="60.0" mnemonicParsing="false" onAction="#setHome" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" stylesheets="@../../theme/css/drawer.css" text="   Home        " textAlignment="CENTER">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton maxHeight="60.0" mnemonicParsing="false" onAction="#setToproduct" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" text="   Products   ">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton maxHeight="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" text="      Clients">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton maxHeight="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" text="      Cart">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton maxHeight="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" text="      Providers">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton maxHeight="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" text="      Products">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="60.0" prefHeight="60.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton maxHeight="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="168.0" style="-fx-alignment: center; -fx-font-size: 16; -fx-text-fill: #000000; -fx-border-color: #000000; -fx-border-width: 0 0 2 0; -fx-background-color: #A4E6F2;" text="      Products">
+                           <graphic>
+                              <SVGPath content="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97" styleClass="icon" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+   <styleClass>
+      <String fx:value="border" />
+      <String fx:value="border-r-1" />
+      <String fx:value="drawer" />
+   </styleClass>
+</AnchorPane>

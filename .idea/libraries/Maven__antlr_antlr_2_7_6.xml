@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Maven: antlr:antlr:2.7.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.6/antlr-2.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.6/antlr-2.7.6-javadoc.jar!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file:///opt/java11/javafx-sdk-11.0.2/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.6/antlr-2.7.6-sources.jar!/" />
+      <root url="file:///opt/java11/javafx-sdk-11.0.2/lib" />
+    </SOURCES>
+    <jarDirectory url="file:///opt/java11/javafx-sdk-11.0.2/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

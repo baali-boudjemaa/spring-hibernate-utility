@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../sample/samples-master/HelloFX/Maven/hellofx/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../sample/samples-master/HelloFX/Maven/hellofx/lib" recursive="false" />
+  </library>
+</component>
